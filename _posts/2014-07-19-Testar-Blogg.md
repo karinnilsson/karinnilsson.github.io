@@ -1,6 +1,10 @@
 ---
-published: false
+published: true
+title: Blogg
+categories: "hästar, ost, bollar"
 ---
+
+
 
 
 Här kan man skriva en blogg, och nedan följer lite exempel på vad man kan göra
