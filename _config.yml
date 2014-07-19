@@ -1,0 +1,4 @@
+name: Oscar Nilsson
+markdown: redcarpet
+pygments: true
+permalink: /blog/:title

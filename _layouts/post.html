@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="postsHome">
+	<ul class="posts">
+	 <div class="postCustom">
+	        <span class="niceDate">{{ page.date | date_to_string }}</span>
+	        <p class="postHeader">{{ page.title }}</p>
+
+	        <div id="customDivider"></div>
+
+	        <p>
+	          {{ page.content | markdownify }}
+	         </p>
+	        
+
+	</div>
+	</ul>
+</div>
