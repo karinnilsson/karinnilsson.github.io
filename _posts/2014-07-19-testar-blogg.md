@@ -2,7 +2,7 @@
 layout: blog
 published: true
 title: Blogg
-categories: "hästar, ost, bollar"
+categories: [hästar, ost, bollar]
 ---
 
 Här kan man skriva en blogg, och nedan följer lite exempel på vad man kan göra
@@ -19,7 +19,7 @@ Detta är **bold text** och _italics_
 - En
 - Lista 
 
-### Detta är en underrubrik!
+### Detta är en underrubrikkk!
 
 Nedan följer en bild:
 

@@ -25,13 +25,22 @@
           {{ content }}
 
           <div class="postsHome">
+
+            <div class="postHeader">Vackert Naturligt</div>
   
               <ul class="posts">
                 {% for post in site.posts %}
                   <li>
                     <div class="postCustom">
                     <span class="niceDate">{{ post.date | date_to_string }}</span>
+                    <p>
+                      <span class="niceDate"> Kategorier: </span>
+                      {% for cat in post.categories %}
+                      <span class="niceDate"> {{cat}}</span>
+                    {% endfor %}
+                  </p>
                     <p class="postHeader"><a class="postHeader" href="{{ post.url }}">{{ post.title }}</a></p>
+
 
                     <div id="customDivider"></div>
 
@@ -40,6 +49,9 @@
                     
 
                      </div>
+                      
+                     
+
                   </li>
                    
                 {% endfor %}

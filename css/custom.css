@@ -71,6 +71,8 @@ video {
 
 }
 
+
+
 .postHeader {
   margin-top: 0px;
   /*font-family: 'PT Serif', 'Georgia', serif;*/
@@ -79,6 +81,7 @@ video {
   font-size: 40px;
   line-height: 60px;
   margin-bottom: 0px;
+  margin-top: 50px;
   color: #2B2B2B;
 }
 
@@ -161,7 +164,9 @@ a:link {
 
 .postsHome {
   text-align: justify;
-  margin-left: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 850px;
   background-color: #ffffff;
 
    -webkit-animation: fadein 0.7s; /* Safari and Chrome */
@@ -200,14 +205,17 @@ a:link {
 
 }
 
+img {
+  max-width: 850px;
+}
+
 .posts {
-  width: 40em;
+  width: 850px;
   height: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  
-  padding-left: 70px;
-  padding-right: 50px;
+  padding-left: 0px;
+
 
 }
 
@@ -308,7 +316,7 @@ p {
 }
 
 h1 {
-    font-family: 'PT Serif', 'Georgia', serif;
+    font-family: 'Avenir Next', 'Helvetica', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 45px;
     line-height: 60px;
@@ -316,7 +324,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'PT Serif', 'Georgia', serif;
+    font-family: 'Avenir Next', 'Helvetica', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 38px;
     line-height: 60px;
@@ -324,7 +332,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'PT Serif', 'Georgia', serif;
+    font-family: 'Avenir Next', 'Helvetica', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 60px;
@@ -332,7 +340,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'PT Serif', 'Georgia', serif;
+    font-family: 'Avenir Next', 'Helvetica', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 25px;
     line-height: 60px;
@@ -340,7 +348,7 @@ h4 {
 }
 
 h5 {
-    font-family: 'PT Serif', 'Georgia', serif;
+    font-family: 'Avenir Next', 'Helvetica', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 22px;
     line-height: 60px;
@@ -348,7 +356,7 @@ h5 {
 }
 
 h6 {
-    font-family: 'PT Serif', 'Georgia', serif;
+    font-family: 'Avenir Next', 'Helvetica', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 60px;
