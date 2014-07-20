@@ -1,5 +1,11 @@
 ---
+layout: post
 published: true
+categories: 
+  - Natur
+  - Filosofi
+  - Design
+  - Foto
 ---
 
 Tesblogg numero dos
