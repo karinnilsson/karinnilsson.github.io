@@ -21,9 +21,8 @@ Detta är **bold text** och _italics_
 
 ### Detta är en underrubrik!
 
-[Walt-Disney-With-Dali-In--001.jpg](/bilder/Walt-Disney-With-Dali-In--001.jpg)
-
 Nedan följer en bild:
 
-[Detta är en länk](https://www.google.se/)
+![I5Pfmr6.jpg](/bilder/I5Pfmr6.jpg)
 
+[Detta är en länk](https://www.google.se/)
